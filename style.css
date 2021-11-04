@@ -42,6 +42,7 @@ button{
 .add{
   width: 30px;
   transform: scale(1.1);
+  background: transparent;
 }
 .add:hover{
   transform: scale(1.2);
