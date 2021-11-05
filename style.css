@@ -25,13 +25,13 @@ header,form,.todo-container{
   min-height: 20vh;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
 }
 
 .todo-input{
   padding: 0.5rem;
   margin-left: 3rem;
-  min-width: 400px;
+  width: 60vw;
+  max-width: 600px;
   font-size: 2rem;
   border: none;
 }
@@ -42,7 +42,6 @@ button{
 .add{
   width: 30px;
   transform: scale(1.1);
-  background: transparent;
 }
 .add:hover{
   transform: scale(1.2);
@@ -55,12 +54,14 @@ button{
   flex-direction: column;
   align-items: center;
   margin-left: 3rem;
+  max-width: 60vw;
 }
 .div-todo{
   display: flex;
   align-items: center;
   background: white;
-  min-width: 300px;
+  width: 50vw;
+  max-width: 400px;
   margin: 2rem 0rem;
   padding-left:0.5rem;
   color: black;
@@ -102,7 +103,5 @@ button{
   opacity: 0.5;
 }
 
-@media screen and (max-width:768px){
-  html{font-size: 45%;}
-}
+
 
